@@ -83,4 +83,16 @@
   h1 {
     @apply text-4xl font-semibold tracking-tight lg:text-5xl pb-2;
   }
+
+  .title-1 {
+    @apply text-2xl font-medium text-neutral-200 tracking-tight;
+  }
+
+  .article-title-1 {
+    @apply text-xl xl:text-2xl font-medium text-neutral-200 tracking-tight;
+  }
+
+  .label-sm {
+    @apply uppercase font-mono text-sm text-neutral-400;
+  }
 }

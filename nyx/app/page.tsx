@@ -32,9 +32,9 @@ export default function Home() {
         </section>
         <StickyHighlightNav
           highlightItems={[
-            {elementId: 'test1', label: 'Test 1'},
-            {elementId: 'test2', label: 'Test 2'},
-            {elementId: 'test3', label: 'Test 3'}
+            { elementId: "test1", label: "Test 1" },
+            { elementId: "test2", label: "Test 2" },
+            { elementId: "test3", label: "Test 3" },
           ]}
           navbarHeight={60}
           gapHeight={80}
@@ -44,21 +44,19 @@ export default function Home() {
           className="max-w-[96rem] group/link scroll-mt-20"
           id="test1"
         >
-          <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-6 bg-center transition-all flex items-center justify-center">
+          <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-4 lg:mb-5 bg-center transition-all flex items-center justify-center">
             <img
               src="/projects/tft-team-planner/ui.png"
               className="w-[80%] rounded-lg group-hover/link:scale-105 transition-transform shadow-2xl"
             ></img>
           </div>
 
-          <div className="grid xl:grid-cols-2 gap-4 mb-5">
+          <div className="grid xl:grid-cols-2 gap-2.5 lg:gap-4 mb-5">
             <div>
-              <p className="text-sm uppercase font-mono text-neutral-400 mb-1.5">
+              <p className="text-sm uppercase font-mono text-neutral-400 mb-1 lg:mb-1.5">
                 Passion project
               </p>
-              <h2 className="text-2xl font-medium text-neutral-200 tracking-tight">
-                Teamfight Tactics Team Planner
-              </h2>
+              <h2 className="">Teamfight Tactics Team Planner</h2>
             </div>
 
             <p className="text-neutral-400 xl:text-lg">
