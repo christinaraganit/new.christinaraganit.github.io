@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 import { Badge } from "@/components/ui/badge";
 import Nav from "@/components/nav";
+import StickyHighlightNav from "@/components/ui/sticky-highlight-nav";
 
 export default function Home() {
   return (
@@ -29,10 +30,77 @@ export default function Home() {
             <Button variant="outline">View resume</Button>
           </div>
         </section>
-
+        <StickyHighlightNav
+          highlightItems={[
+            {elementId: 'test1', label: 'Test 1'},
+            {elementId: 'test2', label: 'Test 2'},
+            {elementId: 'test3', label: 'Test 3'}
+          ]}
+          navbarHeight={60}
+          gapHeight={80}
+        />
         <a
           href="/projects/tft-team-planner"
-          className="max-w-[96rem] group/link"
+          className="max-w-[96rem] group/link scroll-mt-20"
+          id="test1"
+        >
+          <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-6 bg-center transition-all flex items-center justify-center">
+            <img
+              src="/projects/tft-team-planner/ui.png"
+              className="w-[80%] rounded-lg group-hover/link:scale-105 transition-transform shadow-2xl"
+            ></img>
+          </div>
+
+          <div className="grid xl:grid-cols-2 gap-4 mb-5">
+            <div>
+              <p className="text-sm uppercase font-mono text-neutral-400 mb-1.5">
+                Passion project
+              </p>
+              <h2 className="text-2xl font-medium text-neutral-200 tracking-tight">
+                Teamfight Tactics Team Planner
+              </h2>
+            </div>
+
+            <p className="text-neutral-400 xl:text-lg">
+              Conceptualized and designed features for the in-game Team Planner
+              of Teamfight Tactics to help beginner players improve their game
+              knowledge.
+            </p>
+          </div>
+        </a>
+        <a
+          href="/projects/tft-team-planner"
+          className="max-w-[96rem] group/link scroll-mt-20"
+          id="test2"
+        >
+          <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-6 bg-center transition-all flex items-center justify-center">
+            <img
+              src="/projects/tft-team-planner/ui.png"
+              className="w-[80%] rounded-lg group-hover/link:scale-105 transition-transform shadow-2xl"
+            ></img>
+          </div>
+
+          <div className="grid xl:grid-cols-2 gap-4 mb-5">
+            <div>
+              <p className="text-sm uppercase font-mono text-neutral-400 mb-1.5">
+                Passion project
+              </p>
+              <h2 className="text-2xl font-medium text-neutral-200 tracking-tight">
+                Teamfight Tactics Team Planner
+              </h2>
+            </div>
+
+            <p className="text-neutral-400 xl:text-lg">
+              Conceptualized and designed features for the in-game Team Planner
+              of Teamfight Tactics to help beginner players improve their game
+              knowledge.
+            </p>
+          </div>
+        </a>
+        <a
+          href="/projects/tft-team-planner"
+          className="max-w-[96rem] group/link scroll-mt-20"
+          id="test3"
         >
           <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-6 bg-center transition-all flex items-center justify-center">
             <img
