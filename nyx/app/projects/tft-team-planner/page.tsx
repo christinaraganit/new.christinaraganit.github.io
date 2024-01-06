@@ -3,18 +3,22 @@ import MediaTag from "@/components/media-tag";
 
 export default function TeamPlanner() {
   return (
-    <article className="flex gap-16 py-20 flex-col items-center">
-      <section className="max-w-3xl pt-12 xl:pt-0 flex flex-col justify-center items-center">
-        <h1 className="gradient-text">Teamfight Tactics Team Planner</h1>
-        <p className=" text-neutral-400 mt-2 mb-6 max-w-2xl lg:text-lg text-center">
+    <article className="flex gap-20 py-20 flex-col items-center">
+      <section className="pt-20 flex flex-col justify-center items-center">
+        <h1 className="gradient-text mb-2">Teamfight Tactics Team Planner</h1>
+        <p className=" text-neutral-400 mt-2 mb-4 max-w-3xl lg:text-lg text-center">
           Conceptualized features for the in-game Team Planner of Teamfight
           Tactics to help beginner players improve their game knowledge.
           Designed proof-of-concept mockups which received an overwhelmingly
           positive response from the playerbase.
         </p>
+
+        <div className="max-w-[96rem]">
+          <img src="/projects/tft-team-planner/ui-header.png"></img>
+        </div>
       </section>
 
-      <StickyHighlightNav
+      {/* <StickyHighlightNav
         highlightItems={[
           { elementId: "test1", label: "Test 1" },
           { elementId: "test2", label: "Test 2" },
@@ -22,37 +26,37 @@ export default function TeamPlanner() {
         ]}
         navbarHeight={60}
         gapHeight={80}
-      />
+      /> */}
 
-      <section id="test1" className="scroll-m-16 max-w-2xl w-full ">
-        <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
-          1 | Overview
-        </span>
+      <section id="test1" className="scroll-m-16 max-w-2xl w-full">
+        <div>
+          <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
+            1 | Overview
+          </span>
+        </div>
 
         <div className="grid grid-cols-2 gap-4 xl:gap-6">
           <div>
-            <p className="label-sm block mb-2">Role</p>
-            <p className="text-neutral-300 xl:text-lg">
-              UI Design, UX Research, UX Design, Prototyping
+            <p className="label-sm block mb-1">Roles</p>
+            <p className="text-neutral-400 xl:text-lg">
+              UI Design, UX Design, Prototyping
             </p>
           </div>
 
           <div>
-            <p className="label-sm block mb-2">Timeline</p>
-            <p className="text-neutral-300 xl:text-lg">
-              December 17–31, 2023 (2 weeks)
+            <p className="label-sm block mb-1">Timeline</p>
+            <p className="text-neutral-400  xl:text-lg">
+              December 17—31, 2023 (2 weeks)
             </p>
           </div>
 
           <div>
-            <p className="label-sm block mb-2">Team</p>
-            <p className="text-neutral-300 xl:text-lg">Solo Designer</p>
+            <p className="label-sm block mb-1">Team</p>
+            <p className="text-neutral-400  xl:text-lg">Solo Designer</p>
           </div>
           <div>
-            <p className="label-sm block mb-2">Tools</p>
-            <p className="text-neutral-300 xl:text-lg">
-              Figma, Adobe Illustrator
-            </p>
+            <p className="label-sm block mb-1">Tools</p>
+            <p className="text-neutral-400  xl:text-lg">Figma</p>
           </div>
         </div>
       </section>
@@ -62,7 +66,7 @@ export default function TeamPlanner() {
           2 | Summary
         </span>
 
-        <p className="text-neutral-400 xl:mb-4 xl:text-lg">
+        <p className="text-neutral-400 mb-4 xl:text-lg">
           Teamfight Tactics (TFT) is an auto battler game where players compete
           online against seven other opponents by building a team to be the last
           one standing. There's an in-game feature called Team Planner which has
@@ -71,31 +75,35 @@ export default function TeamPlanner() {
         </p>
 
         <p className="text-neutral-400 xl:text-lg xl:mb-4">
-          As an avid TFT player, I was excited to take on this passion project.
-          After sifting through tons of player feedback, I designed what the
-          future of the Team Planner might look like for desktop. I shared the
-          prototypes I created in the Teamfight Tactics subreddit and received
-          an{" "}
+          As an avid TFT player, I was excited to take on this project. After
+          sifting through tons of player feedback, I designed what the future of
+          the Team Planner might look like. I shared the prototypes I created in
+          the Teamfight Tactics subreddit and received an{" "}
           <span className="text-neutral-200">
             overwhelmingly positive response
-          </span>{" "}
-          from the playerbase.
+          </span>
+          .
         </p>
       </section>
 
-      <section id="test3" className="scroll-m-16 flex flex-col items-center">
-        <div className="max-w-2xl w-full">
+      <section
+        id="test3"
+        className="scroll-m-16 max-w-[96rem] flex flex-col items-center"
+      >
+        <div className="max-w-2xl">
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
             3 | Highlights
           </span>
         </div>
 
-        <div className="mx-6 lg:mx-24 grid gap-8">
+        <div className="grid gap-8">
           <div className="grid gap-2">
-            <img
-              src="/projects/tft-team-planner/from-client.png"
-              className="rounded-2xl border"
-            ></img>
+            <div className="aspect-video border bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit bg-center transition-all flex items-center justify-center">
+              <img
+                src="/projects/tft-team-planner/ui.png"
+                className="w-[80%] rounded-lg group-hover/link:scale-105 transition-transform shadow-2xl"
+              ></img>
+            </div>
             <MediaTag mediaType="Image">
               Creating a preset team in the Team Planner from the client.
             </MediaTag>
@@ -104,7 +112,7 @@ export default function TeamPlanner() {
           <div className="grid gap-2">
             <img
               src="/projects/tft-team-planner/in-game.png"
-              className="rounded-2xl border"
+              className="rounded-lg border"
             ></img>
             <MediaTag mediaType="Image">
               Hovering over the recommended positioning for the champion Annie
@@ -115,7 +123,7 @@ export default function TeamPlanner() {
           <div className="grid gap-2">
             <img
               src="/projects/tft-team-planner/highlight-2.png"
-              className="rounded-2xl border"
+              className="rounded-lg border"
             ></img>
             <MediaTag mediaType="Image">
               Some of the positive feedback I received from the playerbase.
@@ -126,20 +134,153 @@ export default function TeamPlanner() {
 
       <section id="text4" className="scroll-m-16">
         <div className="max-w-3xl w-full">
+          <img
+            src="/projects/tft-team-planner/does-not-computer.webp"
+            className="w-28 relative lg:rotate-30 mb-4 lg:-mb-24 lg:translate-y-12 lg:-ml-32 lg:-translate-x-3"
+          ></img>
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
             4 | PROBLEM STATEMENT
           </span>
           <h2 className="mb-4 article-title-1">
-            The community's asking for QOL improvements in the Team Planner, but
-            it might be a while before we see anything new...
+            There's limited functionality in the Team Planner, and plenty of
+            room for improvement.
           </h2>
           <p className="text-neutral-400 xl:mb-4 xl:text-lg">
-            Teamfight Tactics (TFT) is an auto battler game where players
-            compete online against seven other opponents by building a team to
-            be the last one standing. There's an in-game feature called Team
-            Planner which has a lot of potential for improvement, but it might
-            be a while before we get to see any changes.
+            Currently, the only functionality that the Team Planner has is that
+            it highlights champions you add to your planner when they appear in
+            your shop. As a player myself, I already know there's a few
+            functionalities I'd personally like to see, but I wondered if the
+            playerbase had any suggestions, so I searched for feedback on
+            platforms like Twitter and Reddit.
           </p>
+
+          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
+            I then considered features' alignment with strategy, determine their
+            technical feasibility, and redesign the interface while adhering to
+            the existing visual language.
+          </p>
+        </div>
+      </section>
+
+      <section id="text5" className="scroll-m-16">
+        <div className="max-w-3xl w-full">
+          <img
+            src="/projects/tft-team-planner/raise-your-dongers.webp"
+            className="w-28 lg:w-32 relative lg:float-right mb-4 lg:-scale-x-100 lg:-rotate-30 lg:-mb-48 lg:translate-y-20 lg:translate-x-32"
+          ></img>
+          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
+            5 | Design Challenge
+          </span>
+          <h2 className="mb-4 title-1 lg:text-3xl font-normal lg:leading-10 text-neutral-200">
+            What QOL features can I propose for the Team Planner? How can I take
+            into consideration these features' feasibility and alignment with
+            business strategy? How can I adhere to the visual language of
+            Teamfight Tactics when designing the interface?
+          </h2>
+        </div>
+      </section>
+
+      <section
+        id="text6"
+        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+      >
+        <div className="max-w-3xl w-full">
+          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
+            6 | Research
+          </span>
+          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
+            To identify which features players wanted to see in the Team
+            Planner, I gathered feedback from the playerbase on Reddit and X
+            (Twitter).
+          </p>
+        </div>
+
+        <div className="grid gap-2">
+          <img
+            src="/projects/tft-team-planner/oh-teemo.webp"
+            className="hidden 2xl:block lg:w-32 lg:relative float-right lg:-mt-40 lg:translate-x-[80.5rem] lg:translate-y-[29.5rem]"
+          ></img>
+          <img
+            src="/projects/tft-team-planner/feedback.png"
+            className="rounded-lg"
+          ></img>
+          <img
+            src="/projects/tft-team-planner/oh-snap.webp"
+            className="w-28 -mt-28 lg:w-40 relative lg:-mt-40 lg:-translate-x-4 -rotate-12"
+          ></img>
+          <MediaTag mediaType="Image">
+            Some of the feedback I encountered. And there's definitely more
+            where that came from...
+          </MediaTag>
+        </div>
+      </section>
+
+      <section
+        id="7"
+        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+      >
+        <div className="max-w-3xl">
+          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
+            7 | Solution
+          </span>
+        </div>
+
+        <div className="grid gap-12">
+          <div className="grid gap-6">
+            <video
+              height={1920}
+              width={1080}
+              loop
+              muted
+              autoPlay
+              className="w-full rounded-lg"
+              src="/projects/tft-team-planner/search.mp4"
+            ></video>
+            <div className="grid lg:grid-cols-2 gap-2">
+              <div>
+                <p className="label-sm mb-1.5">Suggestion #1</p>
+                <h2 className="title-1">
+                  Searching, filtering, and sorting champions
+                </h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                Players can search for a champion by name or by trait. They may
+                also sort the champion results by trait, cost, and name. This
+                functionality exists in the client in places such as the Shop or
+                the Hextech Crafting sections, so I believe this feature is
+                technically feasible.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-6">
+            <video
+              height={1920}
+              width={1080}
+              loop
+              muted
+              autoPlay
+              className="w-full rounded-lg"
+              src="/projects/tft-team-planner/search.mp4"
+            ></video>
+            <div className="grid lg:grid-cols-2 gap-2">
+              <div>
+                <p className="label-sm mb-1.5">Suggestion #2</p>
+                <h2 className="title-1">
+                  Displaying information through tooltips when hovering
+                </h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                Players can search for a champion by name or by trait. They may
+                also sort the champion results by trait, cost, and name. This
+                functionality exists in the client in places such as the Shop or
+                the Hextech Crafting sections, so I believe this feature is
+                technically feasible.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </article>

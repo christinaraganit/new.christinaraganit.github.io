@@ -9,7 +9,6 @@ import StickyHighlightNav from "@/components/ui/sticky-highlight-nav";
 export default function Home() {
   return (
     <div>
-      <Nav></Nav>
       <main className="p-6 py-12 lg:p-24 xl:p-40 flex flex-col justify-center items-center gap-12 lg:gap-20">
         <section className="pt-12 xl:pt-0 flex flex-col justify-center items-center">
           <img
@@ -47,7 +46,7 @@ export default function Home() {
           <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-4 lg:mb-5 bg-center transition-all flex items-center justify-center">
             <img
               src="/projects/tft-team-planner/ui.png"
-              className="w-[80%] rounded-lg group-hover/link:scale-105 transition-transform shadow-2xl"
+              className="w-[85%] rounded-xl group-hover/link:scale-105 transition-transform shadow-2xl"
             ></img>
           </div>
 
@@ -56,7 +55,7 @@ export default function Home() {
               <p className="text-sm uppercase font-mono text-neutral-400 mb-1 lg:mb-1.5">
                 Passion project
               </p>
-              <h2 className="">Teamfight Tactics Team Planner</h2>
+              <h2 className="title-1">Teamfight Tactics Team Planner</h2>
             </div>
 
             <p className="text-neutral-400 xl:text-lg">
