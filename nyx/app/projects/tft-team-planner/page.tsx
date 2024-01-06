@@ -67,12 +67,12 @@ export default function TeamPlanner() {
           Teamfight Tactics (TFT) is an auto battler game where players compete
           online against seven other opponents by building a team to be the last
           one standing. The new player experience of TFT can be daunting, and
-          the desktop version doesn't have a tutorial that can teach players
+          the desktop version doesn&apos;t have a tutorial that can teach players
           before getting into the game.
         </p>
 
         <p className="text-neutral-400 xl:text-lg">
-          There's a tool in the game called Team Planner, and, as an avid TFT
+          There&apos;s a tool in the game called Team Planner, and, as an avid TFT
           player, I thought the tool had potential. I wondered if I could
           augment this tool with more features to help new players learn basic
           game knowledge.
