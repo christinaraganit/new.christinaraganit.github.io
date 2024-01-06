@@ -3,10 +3,10 @@ import MediaTag from "@/components/media-tag";
 
 export default function TeamPlanner() {
   return (
-    <article className="flex gap-20 py-20 flex-col items-center">
-      <section className="pt-20 flex flex-col justify-center items-center">
+    <article className="flex gap-12 lg:gap-20 py-20 flex-col items-center">
+      <section className="p-6 flex flex-col justify-center items-center">
         <h1 className="gradient-text mb-2">Teamfight Tactics Team Planner</h1>
-        <p className=" text-neutral-400 mt-2 mb-4 max-w-3xl lg:text-lg text-center">
+        <p className=" text-neutral-400 mt-2 mb-4 max-w-3xl lg:text-lg md:text-center">
           Conceptualized features for the in-game Team Planner of Teamfight
           Tactics to help beginner players improve their game knowledge.
           Designed proof-of-concept mockups which received an overwhelmingly
@@ -28,7 +28,7 @@ export default function TeamPlanner() {
         gapHeight={80}
       /> */}
 
-      <section id="test1" className="scroll-m-16 max-w-2xl w-full">
+      <section id="test1" className="px-6 scroll-m-16 max-w-2xl w-full">
         <div>
           <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
             1 | Overview
@@ -61,7 +61,7 @@ export default function TeamPlanner() {
         </div>
       </section>
 
-      <section id="test2" className="scroll-m-16 max-w-2xl">
+      <section id="test2" className="px-6 scroll-m-16 max-w-2xl">
         <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
           2 | Summary
         </span>
@@ -86,7 +86,7 @@ export default function TeamPlanner() {
         </p>
       </section>
 
-      <section id="disclaimer" className="scroll-m-16 max-w-2xl">
+      <section id="disclaimer" className="px-6 scroll-m-16 max-w-2xl">
         <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
           3 | Disclaimer
         </span>
@@ -100,7 +100,7 @@ export default function TeamPlanner() {
 
       <section
         id="test3"
-        className="scroll-m-16 max-w-[96rem] flex flex-col items-center"
+        className="scroll-m-16 px-6 max-w-[96rem] flex flex-col items-center"
       >
         <div className="max-w-2xl w-full">
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
@@ -144,7 +144,7 @@ export default function TeamPlanner() {
         </div>
       </section>
 
-      <section id="text4" className="scroll-m-16">
+      <section id="text4" className="px-6 scroll-m-16">
         <div className="max-w-3xl w-full">
           <img
             src="/projects/tft-team-planner/does-not-computer.webp"
@@ -174,7 +174,7 @@ export default function TeamPlanner() {
         </div>
       </section>
 
-      <section id="text5" className="scroll-m-16">
+      <section id="text5" className="px-6 scroll-m-16">
         <div className="max-w-3xl w-full">
           <img
             src="/projects/tft-team-planner/raise-your-dongers.webp"
@@ -194,13 +194,13 @@ export default function TeamPlanner() {
 
       <section
         id="text6"
-        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+        className="max-w-[96rem] px-6 scroll-m-16 flex items-center flex-col gap-2"
       >
         <div className="max-w-3xl w-full">
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
             7 | Research
           </span>
-          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
+          <p className="text-neutral-400 xl:text-lg">
             To identify which features players wanted to see in the Team
             Planner, I gathered feedback from the playerbase on Reddit and X
             (Twitter).
@@ -210,7 +210,7 @@ export default function TeamPlanner() {
         <div className="grid">
           <img
             src="/projects/tft-team-planner/oh-teemo.webp"
-            className="hidden 2xl:block lg:w-32 lg:relative float-right lg:-mt-40 lg:translate-x-[80.5rem] lg:translate-y-[29.5rem]"
+            className="hidden 2xl:block lg:w-32 lg:relative float-right lg:-mt-40 lg:translate-x-[77rem] lg:translate-y-[29rem]"
           ></img>
           <img
             src="/projects/tft-team-planner/feedback.png"
@@ -228,12 +228,83 @@ export default function TeamPlanner() {
       </section>
 
       <section
-        id="constraints"
-        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+        id="7"
+        className="px-6 max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
       >
         <div className="max-w-3xl w-full">
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
-            8 | Constraints
+            8 | Solution
+          </span>
+        </div>
+
+        <div className="grid gap-16">
+          <div className="grid gap-4">
+            <video
+              height={1920}
+              width={1080}
+              loop
+              muted
+              autoPlay
+              className="w-full rounded-lg"
+              src="/projects/tft-team-planner/search.mp4"
+            ></video>
+
+            <div className="grid lg:grid-cols-2 gap-2">
+              <div>
+                <p className="label-sm mb-1.5">Suggestion #1</p>
+                <h2 className="title-1">
+                  Searching, filtering, and sorting champions
+                </h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                Players can search for a champion by name or by trait. They may
+                also sort the champion results by trait, cost, and name. This
+                functionality exists in the client in places such as the Shop or
+                the Hextech Crafting sections, so I believe this feature is
+                technically feasible.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4">
+            <video
+              height={1920}
+              width={1080}
+              loop
+              muted
+              autoPlay
+              className="w-full rounded-lg"
+              src="/projects/tft-team-planner/save-teams.mp4"
+            ></video>
+
+            <div className="grid lg:grid-cols-2 gap-2">
+              <div>
+                <p className="label-sm mb-1.5">Suggestion #2</p>
+                <h2 className="title-1">
+                  Creating, naming, and saving preset teams
+                </h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                In the client, the player can create, name, and save preset
+                teams. Once the player enters a TFT match, they can load these
+                presets. This functionality exists for League of Legends in the
+                form of item sets, so theoretically, this feature should be
+                technically feasible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="constraints"
+        className="px-6 max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+      >
+        <div className="max-w-3xl w-full">
+          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
+            9 | Constraints
           </span>
         </div>
 
@@ -285,85 +356,6 @@ export default function TeamPlanner() {
               <h3 className="article-title-2 mb-2">Alignment with strategy</h3>
               <p className="text-neutral-400 xl:text-lg">
                 Does this make sense for the team to build?
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="7"
-        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
-      >
-        <div className="max-w-3xl w-full">
-          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
-            9 | Solution
-          </span>
-        </div>
-
-        <div className="grid gap-16">
-          <div className="grid gap-6">
-            <div>
-              <video
-                height={1920}
-                width={1080}
-                loop
-                muted
-                autoPlay
-                className="w-full rounded-lg mb-2"
-                src="/projects/tft-team-planner/search.mp4"
-              ></video>
-              <div className="flex justify-end">
-                <MediaTag mediaType="Video – Autoplay, loop"> </MediaTag>
-              </div>
-            </div>
-            <div className="grid lg:grid-cols-2 gap-2">
-              <div>
-                <p className="label-sm mb-1.5">Suggestion #1</p>
-                <h2 className="title-1">
-                  Searching, filtering, and sorting champions
-                </h2>
-              </div>
-
-              <p className="text-neutral-400 xl:text-lg">
-                Players can search for a champion by name or by trait. They may
-                also sort the champion results by trait, cost, and name. This
-                functionality exists in the client in places such as the Shop or
-                the Hextech Crafting sections, so I believe this feature is
-                technically feasible.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid gap-6">
-            <div>
-              <video
-                height={1920}
-                width={1080}
-                loop
-                muted
-                autoPlay
-                className="w-full rounded-lg mb-2"
-                src="/projects/tft-team-planner/save-teams.mp4"
-              ></video>
-              <div className="flex justify-end w-full">
-                <MediaTag mediaType="Video – Autoplay, loop"> </MediaTag>
-              </div>
-            </div>
-            <div className="grid lg:grid-cols-2 gap-2">
-              <div>
-                <p className="label-sm mb-1.5">Suggestion #2</p>
-                <h2 className="title-1">
-                  Creating, naming, and saving preset teams
-                </h2>
-              </div>
-
-              <p className="text-neutral-400 xl:text-lg">
-                In the client, the player can create, name, and save preset
-                teams. Once the player enters a TFT match, they can load these
-                presets. This functionality exists for League of Legends in the
-                form of item sets, so theoretically, this feature should be
-                technically feasible.
               </p>
             </div>
           </div>

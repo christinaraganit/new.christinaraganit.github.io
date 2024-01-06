@@ -99,4 +99,8 @@
   .label-sm {
     @apply uppercase font-mono text-sm text-neutral-400;
   }
+
+  .icon-link {
+    @apply text-neutral-200 hover:text-neutral-400 transition-colors;
+  }
 }
