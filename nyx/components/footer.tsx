@@ -17,9 +17,9 @@ export default function Footer() {
           <Button asChild variant="link">
             <Link href="/">Home</Link>
           </Button>
-          <Button asChild variant="link">
+          {/* <Button asChild variant="link">
             <Link href="/about">About</Link>
-          </Button>
+          </Button> */}
 
           <Button asChild variant="link">
             <Link href="https://drive.google.com/file/u/1/d/1XdjiOlwxWced9ZCvzwyLcPiZANGwptAV/view">

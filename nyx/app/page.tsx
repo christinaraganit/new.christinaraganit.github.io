@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <main className="p-6 py-12 flex flex-col justify-center items-center gap-12 lg:gap-16">
-        <section className="md:pt-20 lg:pt-24 flex flex-col md:justify-center md:items-center">
+        <section className="pt-20 lg:pt-24 flex flex-col md:justify-center md:items-center">
           <img
             src="headshot.png"
             className="w-16 h-16 grayscale rounded-full mb-6"

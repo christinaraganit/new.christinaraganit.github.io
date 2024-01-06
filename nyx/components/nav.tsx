@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <div>
-      <nav className="hidden md:flex items-center justify-center border-b fixed w-full bg-neutral-950/60 backdrop-blur-md z-10 py-2">
+      <nav className="flex items-center justify-center border-b fixed w-full bg-neutral-950/60 backdrop-blur-md z-10 py-2">
         <div className="px-6 max-w-[96rem] flex justify-between w-full items-center">
           <a className="px-4 block" href="/">
             <svg
@@ -27,9 +27,9 @@ export default function Nav() {
               <Button asChild variant="link">
                 <Link href="/">Home</Link>
               </Button>
-              <Button asChild variant="link">
+              {/* <Button asChild variant="link">
                 <Link href="/about">About</Link>
-              </Button>
+              </Button> */}
               <Button asChild variant="link">
                 <Link href="https://drive.google.com/file/d/1f5lIKN6n2vMnfDtx9ACCAwFTCYjXsajK/view?usp=sharing">
                   Resume

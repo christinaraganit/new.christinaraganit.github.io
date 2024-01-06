@@ -4,7 +4,7 @@ import MediaTag from "@/components/media-tag";
 export default function TeamPlanner() {
   return (
     <article className="flex gap-12 lg:gap-20 py-20 flex-col items-center">
-      <section className="p-6 flex flex-col justify-center items-center">
+      <section className="p-6 pt-12 lg:pt-20 xl:pt-28 flex flex-col justify-center items-center">
         <h1 className="gradient-text mb-2">Teamfight Tactics Team Planner</h1>
         <p className=" text-neutral-400 mt-2 mb-4 max-w-3xl lg:text-lg md:text-center">
           Conceptualized features for the in-game Team Planner of Teamfight
@@ -292,6 +292,32 @@ export default function TeamPlanner() {
                 presets. This functionality exists for League of Legends in the
                 form of item sets, so theoretically, this feature should be
                 technically feasible.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4">
+            <video
+              height={1920}
+              width={1080}
+              loop
+              muted
+              autoPlay
+              className="w-full rounded-lg"
+              src="/projects/tft-team-planner/import-board.mp4"
+            ></video>
+
+            <div className="grid lg:grid-cols-2 gap-2">
+              <div>
+                <p className="label-sm mb-1.5">Suggestion #3</p>
+                <h2 className="title-1">
+                  Importing preset teams and your current board
+                </h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                While in-game, the player can import premade teams into their
+                Team Planner, or they can import their current board.
               </p>
             </div>
           </div>
