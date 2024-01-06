@@ -1,4 +1,5 @@
 import StickyHighlightNav from "@/components/ui/sticky-highlight-nav";
+import MediaTag from "@/components/media-tag";
 
 export default function TeamPlanner() {
   return (
@@ -23,22 +24,17 @@ export default function TeamPlanner() {
         gapHeight={80}
       />
 
-      <section id="test1" className="scroll-m-16 max-w-3xl">
+      <section id="test1" className="scroll-m-16 max-w-2xl w-full ">
         <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
           1 | Overview
         </span>
 
-        <div className="grid grid-cols-2 gap-4 xl:gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 xl:gap-6">
           <div>
             <p className="label-sm block mb-2">Role</p>
             <p className="text-neutral-300 xl:text-lg">
-              UI Design, UX Design, Prototyping
+              UI Design, UX Research, UX Design, Prototyping
             </p>
-          </div>
-
-          <div>
-            <p className="label-sm block mb-2">Team</p>
-            <p className="text-neutral-300 xl:text-lg">Solo Designer</p>
           </div>
 
           <div>
@@ -49,48 +45,82 @@ export default function TeamPlanner() {
           </div>
 
           <div>
+            <p className="label-sm block mb-2">Team</p>
+            <p className="text-neutral-300 xl:text-lg">Solo Designer</p>
+          </div>
+          <div>
             <p className="label-sm block mb-2">Tools</p>
-            <p className="text-neutral-300 xl:text-lg">Figma</p>
+            <p className="text-neutral-300 xl:text-lg">
+              Figma, Adobe Illustrator
+            </p>
           </div>
         </div>
       </section>
 
-      <section id="test2" className="scroll-m-16 max-w-3xl">
+      <section id="test2" className="scroll-m-16 max-w-2xl">
         <span className="uppercase block mb-4 font-mono text-sm text-neutral-400 px-4 py-2 rounded-full border w-fit">
           2 | Summary
         </span>
-        <h2 className="mb-4 article-title-1">
-          As a passionate TFT player, I know that the new player experience is
-          pretty rough. Could the Team Planner help improve it?
-        </h2>
+
         <p className="text-neutral-400 xl:mb-4 xl:text-lg">
           Teamfight Tactics (TFT) is an auto battler game where players compete
           online against seven other opponents by building a team to be the last
-          one standing. The new player experience of TFT can be daunting, and
-          the desktop version doesn't have a tutorial that can teach players
-          before getting into the game.
+          one standing. There's an in-game feature called Team Planner which has
+          a lot of potential for improvement, but it might be a while before we
+          get to see any changes.
         </p>
 
-        <p className="text-neutral-400 xl:text-lg">
-          There's a tool in the game called Team Planner, and, as an avid TFT
-          player, I thought the tool had potential. I wondered if I could
-          augment this tool with more features to help new players learn basic
-          game knowledge.
+        <p className="text-neutral-400 xl:text-lg xl:mb-4">
+          As an avid TFT player, I was excited to take on this passion project.
+          After sifting through tons of player feedback, I designed what the
+          future of the Team Planner might look like for desktop. I shared the
+          prototypes I created in the Teamfight Tactics subreddit and received
+          an{" "}
+          <span className="text-neutral-200">
+            overwhelmingly positive response
+          </span>{" "}
+          from the playerbase.
         </p>
       </section>
 
       <section id="test3" className="scroll-m-16 flex flex-col items-center">
-        <div className="max-w-3xl w-full">
+        <div className="max-w-2xl w-full">
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
             3 | Highlights
           </span>
         </div>
 
-        <div className="mx-6 lg:mx-24">
-          <img
-            src="/projects/tft-team-planner/project.png"
-            className="rounded-lg border"
-          ></img>
+        <div className="mx-6 lg:mx-24 grid gap-8">
+          <div className="grid gap-2">
+            <img
+              src="/projects/tft-team-planner/from-client.png"
+              className="rounded-2xl border"
+            ></img>
+            <MediaTag mediaType="Image">
+              Creating a preset team in the Team Planner from the client.
+            </MediaTag>
+          </div>
+
+          <div className="grid gap-2">
+            <img
+              src="/projects/tft-team-planner/in-game.png"
+              className="rounded-2xl border"
+            ></img>
+            <MediaTag mediaType="Image">
+              Hovering over the recommended positioning for the champion Annie
+              from the Team Planner in-game.
+            </MediaTag>
+          </div>
+
+          <div className="grid gap-2">
+            <img
+              src="/projects/tft-team-planner/highlight-2.png"
+              className="rounded-2xl border"
+            ></img>
+            <MediaTag mediaType="Image">
+              Some of the positive feedback I received from the playerbase.
+            </MediaTag>
+          </div>
         </div>
       </section>
 
@@ -99,6 +129,17 @@ export default function TeamPlanner() {
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
             4 | PROBLEM STATEMENT
           </span>
+          <h2 className="mb-4 article-title-1">
+            The community's asking for QOL improvements in the Team Planner, but
+            it might be a while before we see anything new...
+          </h2>
+          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
+            Teamfight Tactics (TFT) is an auto battler game where players
+            compete online against seven other opponents by building a team to
+            be the last one standing. There's an in-game feature called Team
+            Planner which has a lot of potential for improvement, but it might
+            be a while before we get to see any changes.
+          </p>
         </div>
       </section>
     </article>
