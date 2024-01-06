@@ -18,7 +18,7 @@ const StickyHighlightNav: React.FC<{highlightItems: HighlightItem[], navbarHeigh
       return window.scrollY >= elementTop && window.scrollY < elementBottom;
     });
     setActiveSection(currentSection?.elementId ?? null);
-  }, [highlightItems]);
+  }, [gapHeight, highlightItems, navbarHeight]);
 
   React.useEffect(() => {
     window.addEventListener('scroll', handleScroll);
