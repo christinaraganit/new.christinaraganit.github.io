@@ -16,7 +16,7 @@ export default function Home() {
             className="w-16 h-16 grayscale rounded-full mb-6"
           ></img>
           <h1 className="gradient-text text-center max-w-2xl">
-            I'm Christina, a UX Designer who writes code.
+            I&apos;m Christina, a UX Designer who writes code.
           </h1>
           <p className=" text-neutral-400 mt-2 mb-6 max-w-2xl lg:text-lg text-center">
             Pursuing my BSc in Interactive Arts and Technology at Simon Fraser
