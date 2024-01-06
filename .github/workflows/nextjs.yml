@@ -24,7 +24,7 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          cd portfolio
+          cd nyx
           if [ -f "yarn.lock" ]; then
             echo "manager=yarn" >> $GITHUB_ENV
             echo "command=install" >> $GITHUB_ENV
@@ -52,25 +52,25 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            portfolio/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('portfolio/**/package-lock.json', 'portfolio/**/yarn.lock') }}-${{ hashFiles('portfolio/**.[jt]s', 'portfolio/**.[jt]sx') }}
+            nyx/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('nyx/**/package-lock.json', 'nyx/**/yarn.lock') }}-${{ hashFiles('nyx/**.[jt]s', 'nyx/**.[jt]sx') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('portfolio/**/package-lock.json', 'portfolio/**/yarn.lock') }}-
+            ${{ runner.os }}-nextjs-${{ hashFiles('nyx/**/package-lock.json', 'nyx/**/yarn.lock') }}-
 
       - name: Install dependencies
         run: |
-          cd portfolio
+          cd nyx
           ${{ env.manager }} ${{ env.command }}
 
       - name: Build with Next.js
         run: |
-          cd portfolio
+          cd nyx
           ${{ env.runner }} next build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: portfolio/out
+          path: nyx/out
 
   deploy:
     environment:
