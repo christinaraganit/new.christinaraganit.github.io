@@ -69,20 +69,16 @@ export default function TeamPlanner() {
         <p className="text-neutral-400 mb-4 xl:text-lg">
           Teamfight Tactics (TFT) is an auto battler game where players compete
           online against seven other opponents by building a team to be the last
-          one standing. There's an in-game feature called Team Planner which has
-          a lot of potential for improvement, but it might be a while before we
-          get to see any changes.
+          one standing. The new player experience of TFT can be daunting, and
+          the desktop version doesn't have a tutorial that can teach players
+          before getting into the game.
         </p>
 
-        <p className="text-neutral-400 xl:text-lg xl:mb-4">
-          As an avid TFT player, I was excited to take on this project. After
-          sifting through tons of player feedback, I designed what the future of
-          the Team Planner might look like. I shared the prototypes I created in
-          the Teamfight Tactics subreddit and received an{" "}
-          <span className="text-neutral-200">
-            overwhelmingly positive response
-          </span>
-          .
+        <p className="text-neutral-400 xl:text-lg">
+          There's a tool in the game called Team Planner, and, as an avid TFT
+          player, I thought the tool had potential. I wondered if I could
+          augment this tool with more features to help new players learn basic
+          game knowledge.
         </p>
       </section>
 
@@ -141,146 +137,6 @@ export default function TeamPlanner() {
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
             4 | PROBLEM STATEMENT
           </span>
-          <h2 className="mb-4 article-title-1">
-            There's limited functionality in the Team Planner, and plenty of
-            room for improvement.
-          </h2>
-          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
-            Currently, the only functionality that the Team Planner has is that
-            it highlights champions you add to your planner when they appear in
-            your shop. As a player myself, I already know there's a few
-            functionalities I'd personally like to see, but I wondered if the
-            playerbase had any suggestions, so I searched for feedback on
-            platforms like Twitter and Reddit.
-          </p>
-
-          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
-            I then considered features' alignment with strategy, determine their
-            technical feasibility, and redesign the interface while adhering to
-            the existing visual language.
-          </p>
-        </div>
-      </section>
-
-      <section id="text5" className="scroll-m-16">
-        <div className="max-w-3xl w-full">
-          <img
-            src="/projects/tft-team-planner/raise-your-dongers.webp"
-            className="w-28 lg:w-32 relative lg:float-right mb-4 lg:-scale-x-100 lg:-rotate-30 lg:-mb-48 lg:translate-y-20 lg:translate-x-32"
-          ></img>
-          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
-            5 | Design Challenge
-          </span>
-          <h2 className="mb-4 title-1 lg:text-3xl font-normal lg:leading-10 text-neutral-200">
-            What QOL features can I propose for the Team Planner? How can I take
-            into consideration these features' feasibility and alignment with
-            business strategy? How can I adhere to the visual language of
-            Teamfight Tactics when designing the interface?
-          </h2>
-        </div>
-      </section>
-
-      <section
-        id="text6"
-        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
-      >
-        <div className="max-w-3xl w-full">
-          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
-            6 | Research
-          </span>
-          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
-            To identify which features players wanted to see in the Team
-            Planner, I gathered feedback from the playerbase on Reddit and X
-            (Twitter).
-          </p>
-        </div>
-
-        <div className="grid gap-2">
-          <img
-            src="/projects/tft-team-planner/oh-teemo.webp"
-            className="hidden 2xl:block lg:w-32 lg:relative float-right lg:-mt-40 lg:translate-x-[80.5rem] lg:translate-y-[29.5rem]"
-          ></img>
-          <img
-            src="/projects/tft-team-planner/feedback.png"
-            className="rounded-lg"
-          ></img>
-          <img
-            src="/projects/tft-team-planner/oh-snap.webp"
-            className="w-28 -mt-28 lg:w-40 relative lg:-mt-40 lg:-translate-x-4 -rotate-12"
-          ></img>
-          <MediaTag mediaType="Image">
-            Some of the feedback I encountered. And there's definitely more
-            where that came from...
-          </MediaTag>
-        </div>
-      </section>
-
-      <section
-        id="7"
-        className="max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
-      >
-        <div className="max-w-3xl">
-          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
-            7 | Solution
-          </span>
-        </div>
-
-        <div className="grid gap-12">
-          <div className="grid gap-6">
-            <video
-              height={1920}
-              width={1080}
-              loop
-              muted
-              autoPlay
-              className="w-full rounded-lg"
-              src="/projects/tft-team-planner/search.mp4"
-            ></video>
-            <div className="grid lg:grid-cols-2 gap-2">
-              <div>
-                <p className="label-sm mb-1.5">Suggestion #1</p>
-                <h2 className="title-1">
-                  Searching, filtering, and sorting champions
-                </h2>
-              </div>
-
-              <p className="text-neutral-400 xl:text-lg">
-                Players can search for a champion by name or by trait. They may
-                also sort the champion results by trait, cost, and name. This
-                functionality exists in the client in places such as the Shop or
-                the Hextech Crafting sections, so I believe this feature is
-                technically feasible.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid gap-6">
-            <video
-              height={1920}
-              width={1080}
-              loop
-              muted
-              autoPlay
-              className="w-full rounded-lg"
-              src="/projects/tft-team-planner/search.mp4"
-            ></video>
-            <div className="grid lg:grid-cols-2 gap-2">
-              <div>
-                <p className="label-sm mb-1.5">Suggestion #2</p>
-                <h2 className="title-1">
-                  Displaying information through tooltips when hovering
-                </h2>
-              </div>
-
-              <p className="text-neutral-400 xl:text-lg">
-                Players can search for a champion by name or by trait. They may
-                also sort the champion results by trait, cost, and name. This
-                functionality exists in the client in places such as the Shop or
-                the Hextech Crafting sections, so I believe this feature is
-                technically feasible.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
     </article>
