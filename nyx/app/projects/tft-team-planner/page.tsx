@@ -430,7 +430,7 @@ export default function TeamPlanner() {
         </div>
       </section>
 
-      {/* <section
+      <section
         id="design-process"
         className="px-6 max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
       >
@@ -448,22 +448,63 @@ export default function TeamPlanner() {
             the champions they are searching for much easily, so I decided to
             add it in the design.
           </p>
-          <p className="text-neutral-400 xl:mb-8 xl:text-lg">
+          <p className="text-neutral-400 mb-8 xl:text-lg">
             However, an example of a feature which, to me, didn&apos;t make
             sense to build was a Headliner toggle. While I think this would be a
             great QOL improvement, the key mechanic for next set may not be the
             Chosen or Headliner mechanic that was preset in Set 4: Fates and Set
             10: Remix Rumble, respectively.
           </p>
-          <h2 className="mb-4 article-title-1">
-            I then sketched out what the layout of the design would look like.
-          </h2>
-          <h2 className="mb-4 article-title-1">
-            I carefully studied the Hextech brand before creating high-fidelity
-            prototypes.
-          </h2>
         </div>
-      </section> */}
+        <h2 className="max-w-3xl w-full mb-4 article-title-1">
+          I then sketched out what the layout of the design would look like
+          based on the features chosen.
+        </h2>
+        <div className="w-full mb-12">
+          <img
+            src="/projects/tft-team-planner/sketches.png"
+            className="rounded-lg border mb-2"
+          ></img>
+          <MediaTag mediaType="Image"> </MediaTag>
+        </div>
+        <div className="max-w-3xl w-full">
+          <h2 className="max-w-3xl w-full mb-4 article-title-1">
+            I carefully studied the Hextech brand and how the elements of metal
+            and magic are applied into UI components.
+          </h2>
+          <p className="text-neutral-400 mb-4 xl:text-lg">
+            This meant that I had to play a <i>lot</i> of games to be familiar
+            with the in-game elements, but hey, I've been having a blast playing
+            Remix Rumble anyway.
+          </p>
+        </div>
+        <div className="w-full mb-12">
+          <img
+            src="/projects/tft-team-planner/style-guide.png"
+            className="rounded-lg border mb-2"
+          ></img>
+          <MediaTag mediaType="Image"> </MediaTag>
+        </div>
+        <div className="max-w-3xl w-full">
+          <h2 className="mb-4 article-title-1">
+            I then created interactive components on Figma based on the Hextech
+            brand and existing UI elements in the client.
+          </h2>
+          <p className="text-neutral-400 mb-4 xl:text-lg">
+            I replicated UI elements in the client and in-game into the
+            prototyping tool Figma to create the proof-of-concept videos. Here
+            are some of the components I made... but there's definitely a lot
+            more where that came from!
+          </p>
+        </div>
+        <div className="w-full mb-8">
+          <img
+            src="/projects/tft-team-planner/components.png"
+            className="rounded-lg border mb-2"
+          ></img>
+          <MediaTag mediaType="Image"> </MediaTag>
+        </div>
+      </section>
 
       <section
         id="design-process"
@@ -471,7 +512,7 @@ export default function TeamPlanner() {
       >
         <div className="max-w-3xl w-full">
           <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
-            10 | Reflection
+            11 | Reflection
           </span>
           <div className="max-w-3xl grid gap-4">
             <div className="border p-4 lg:p-6 rounded-lg flex flex-col sm:flex-row gap-4">
