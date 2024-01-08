@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div>
       <nav className="flex items-center justify-center border-b fixed w-full bg-neutral-950/60 backdrop-blur-md z-10 py-2">
-        <div className="pr-1 md:px-6 max-w-[96rem] flex justify-between w-full items-center">
+        <div className="pl-1 pr-2 lg:px-0 max-w-[96rem] flex justify-between w-full items-center">
           <a className="px-4 block" href="/">
             <svg
               width="24"

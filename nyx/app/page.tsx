@@ -35,33 +35,60 @@ export default function Home() {
           gapHeight={80}
         /> */}
 
-        <a
-          href="/projects/tft-team-planner"
-          className="max-w-[96rem] group/link scroll-mt-20"
-          id="test1"
-        >
-          <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-4 lg:mb-5 bg-center transition-all flex items-center justify-center">
-            <img
-              src="/projects/tft-team-planner/ui.png"
-              className="w-[85%] rounded-xl group-hover/link:scale-105 transition-transform shadow-2xl"
-            ></img>
-          </div>
-
-          <div className="grid xl:grid-cols-2 gap-2.5 lg:gap-4 mb-5">
-            <div>
-              <p className="text-sm uppercase font-mono text-neutral-400 mb-1 lg:mb-1.5">
-                Solo passion project
-              </p>
-              <h2 className="title-1">Teamfight Tactics Team Planner</h2>
+        <div className="max-w-[96rem] grid gap-16">
+          <a
+            href="/projects/tft-team-planner"
+            className="max-w-[96rem] group/link scroll-mt-20"
+            id="test1"
+          >
+            <div className="aspect-video bg-[url('/projects/tft-team-planner/project.png')] bg-cover w-full rounded-lg object-fit mb-4 lg:mb-5 bg-center transition-all flex items-center justify-center">
+              <img
+                src="/projects/tft-team-planner/ui.png"
+                className="w-[80%] rounded-xl group-hover/link:scale-105 transition-transform shadow-2xl"
+              ></img>
             </div>
 
-            <p className="text-neutral-400 xl:text-lg">
-              Conceptualized and designed features for the in-game Team Planner
-              and shared proof-of-concept videos with the community, receiving
-              an overwhelmingly positive response from the playerbase.
-            </p>
+            <div className="grid xl:grid-cols-2 gap-2.5 lg:gap-4">
+              <div>
+                <p className="text-sm uppercase font-mono text-neutral-400 mb-1 lg:mb-1.5">
+                  Solo passion project
+                </p>
+                <h2 className="title-1">Teamfight Tactics Team Planner</h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                Conceptualized and designed features for the in-game Team
+                Planner and shared proof-of-concept videos with the community,
+                receiving an overwhelmingly positive response from the
+                playerbase.
+              </p>
+            </div>
+          </a>
+
+          <div className="max-w-[96rem] group/link scroll-mt-20" id="cheekys">
+            <div className="aspect-video bg-[url('/projects/cheekys/cheekys-bg.png')] bg-cover w-full rounded-lg object-fit mb-4 lg:mb-5 bg-center transition-all flex items-center justify-center">
+              <img
+                src="/projects/cheekys/cheekys-ui-chat.png"
+                className="w-[70%] rounded-xl transition-transform shadow-2xl"
+              ></img>
+            </div>
+
+            <div className="grid xl:grid-cols-2 gap-2.5 lg:gap-4">
+              <div>
+                <p className="text-sm uppercase font-mono text-neutral-400 mb-1 lg:mb-1.5">
+                  Academic team project - Coming soon
+                </p>
+                <h2 className="title-1">Cheeky's Cannabis Merchants</h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                Ideated and designed an intervention to digitize the in-store
+                experience of a local dispensary, assisting novice cannabis
+                consumers looking to get high for the first time.
+              </p>
+            </div>
           </div>
-        </a>
+        </div>
       </main>
     </div>
   );

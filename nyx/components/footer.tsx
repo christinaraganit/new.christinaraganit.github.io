@@ -11,7 +11,7 @@ import { EnvelopeOpenIcon } from "@heroicons/react/20/solid";
 
 export default function Footer() {
   return (
-    <footer className="mb-6">
+    <footer className="mt-16 mb-6">
       <div className="px-6 lg:py-2 flex flex-col items-center text-center border-t">
         <div className="p-2 mt-2 flex flex-wrap items-center justify-center">
           <Button asChild variant="link">

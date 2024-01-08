@@ -525,7 +525,7 @@ export default function TeamPlanner() {
                   Players will be expecting continuity between desktop and
                   mobile layouts. I also learned that while it&apos;s important
                   to listen to feedback, it&apos;s equally important to identify
-                  what feedback should be listened to.
+                  what feedback is actionable.
                 </p>
               </div>
             </div>
@@ -576,8 +576,7 @@ export default function TeamPlanner() {
                   I should have considered the mobile implementation. I also
                   should have designed an empty state for the Team Planner
                   that&apos;s more closely aligned with what the UI looks like
-                  if there&apos;s content there. These are both things I&apos;d
-                  like to tackle in the future.
+                  if there&apos;s content there.
                 </p>
               </div>
             </div>
