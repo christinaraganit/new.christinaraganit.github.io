@@ -21,9 +21,8 @@ export default function Home() {
           </h1>
           <p className=" text-neutral-400 mt-2 mb-6 max-w-2xl lg:text-lg text-left md:text-center">
             Pursuing my BSc in Interactive Arts and Technology at Simon Fraser
-            University. Graduate from Computer Systems Technology at BCIT. UX
-            Designer at Felix Payment Systems and Director of Visual Design at
-            SFU Surge.
+            University. Computer Systems graduate from British Columbia
+            Institute of Technology.
           </p>
         </section>
         {/* <StickyHighlightNav
@@ -35,6 +34,7 @@ export default function Home() {
           navbarHeight={60}
           gapHeight={80}
         /> */}
+
         <a
           href="/projects/tft-team-planner"
           className="max-w-[96rem] group/link scroll-mt-20"
@@ -50,16 +50,15 @@ export default function Home() {
           <div className="grid xl:grid-cols-2 gap-2.5 lg:gap-4 mb-5">
             <div>
               <p className="text-sm uppercase font-mono text-neutral-400 mb-1 lg:mb-1.5">
-                Passion project
+                Solo passion project
               </p>
               <h2 className="title-1">Teamfight Tactics Team Planner</h2>
             </div>
 
             <p className="text-neutral-400 xl:text-lg">
-              As a solo designer, I conceptualized and designed features for the
-              in-game Team Planner of Teamfight Tactics and shared
-              proof-of-concept prototypes with the community, receiving an
-              overwhelmingly positive response from the playerbase.
+              Conceptualized and designed features for the in-game Team Planner
+              and shared proof-of-concept videos with the community, receiving
+              an overwhelmingly positive response from the playerbase.
             </p>
           </div>
         </a>

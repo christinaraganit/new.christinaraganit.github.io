@@ -474,8 +474,8 @@ export default function TeamPlanner() {
           </h2>
           <p className="text-neutral-400 mb-4 xl:text-lg">
             This meant that I had to play a <i>lot</i> of games to be familiar
-            with the in-game elements, but hey, I've been having a blast playing
-            Remix Rumble anyway.
+            with the in-game elements, but hey, I&apos;ve been having a blast
+            playing Remix Rumble anyway.
           </p>
         </div>
         <div className="w-full mb-12">
@@ -493,8 +493,8 @@ export default function TeamPlanner() {
           <p className="text-neutral-400 mb-4 xl:text-lg">
             I replicated UI elements in the client and in-game into the
             prototyping tool Figma to create the proof-of-concept videos. Here
-            are some of the components I made... but there's definitely a lot
-            more where that came from!
+            are some of the components I made... but there&apos;s definitely a
+            lot more where that came from!
           </p>
         </div>
         <div className="w-full mb-8">
