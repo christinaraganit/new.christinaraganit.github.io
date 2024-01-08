@@ -56,7 +56,9 @@ export default function TeamPlanner() {
           </div>
           <div>
             <p className="label-sm block mb-1">Tools</p>
-            <p className="text-neutral-400  xl:text-lg">Figma</p>
+            <p className="text-neutral-400  xl:text-lg">
+              Figma, Adobe Illustrator
+            </p>
           </div>
         </div>
       </section>
@@ -134,11 +136,21 @@ export default function TeamPlanner() {
 
           <div className="grid gap-2">
             <img
-              src="/projects/tft-team-planner/highlight-2.png"
+              src="/projects/tft-team-planner/highlight-3.png"
               className="rounded-lg border"
             ></img>
             <MediaTag mediaType="Image">
               Some of the positive feedback I received from the playerbase.
+            </MediaTag>
+          </div>
+
+          <div className="grid gap-2">
+            <img
+              src="/projects/tft-team-planner/highlight-2.png"
+              className="rounded-lg border"
+            ></img>
+            <MediaTag mediaType="Image">
+              More positive feedback I received from the playerbase.
             </MediaTag>
           </div>
         </div>
@@ -304,7 +316,7 @@ export default function TeamPlanner() {
               muted
               autoPlay
               className="w-full rounded-lg"
-              src="/projects/tft-team-planner/import-board.mp4"
+              src="/projects/tft-team-planner/import-teams-and-board.mp4"
             ></video>
 
             <div className="grid lg:grid-cols-2 gap-2">
@@ -317,7 +329,37 @@ export default function TeamPlanner() {
 
               <p className="text-neutral-400 xl:text-lg">
                 While in-game, the player can import premade teams into their
-                Team Planner, or they can import their current board.
+                Team Planner, or they can import the champions from their
+                current board.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4">
+            <video
+              height={1920}
+              width={1080}
+              loop
+              muted
+              autoPlay
+              className="w-full rounded-lg"
+              src="/projects/tft-team-planner/hover-states.mp4"
+            ></video>
+
+            <div className="grid lg:grid-cols-2 gap-2">
+              <div>
+                <p className="label-sm mb-1.5">Suggestion #4</p>
+                <h2 className="title-1">
+                  Displaying additional information on hover
+                </h2>
+              </div>
+
+              <p className="text-neutral-400 xl:text-lg">
+                Players can hover over elements to display tooltips that provide
+                additional information. Hovering over the attack range of the
+                champion lights up the hexes which the champion can attack to
+                depending on its placement, and hovering over the positioning
+                button displays the champion&apos;s recommended placement.
               </p>
             </div>
           </div>
@@ -383,6 +425,120 @@ export default function TeamPlanner() {
               <p className="text-neutral-400 xl:text-lg">
                 Does this make sense for the team to build?
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section
+        id="design-process"
+        className="px-6 max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+      >
+        <div className="max-w-3xl w-full">
+          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
+            10 | Design process
+          </span>
+          <h2 className="mb-4 article-title-1">
+            I began by deciding which features to design by assessing if they
+            were possible to implement and if it made sense to do so.
+          </h2>
+          <p className="text-neutral-400 xl:mb-4 xl:text-lg">
+            For example, there are many instances of searching and sorting in
+            the client UI and doing so would allow players to be able to find
+            the champions they are searching for much easily, so I decided to
+            add it in the design.
+          </p>
+          <p className="text-neutral-400 xl:mb-8 xl:text-lg">
+            However, an example of a feature which, to me, didn&apos;t make
+            sense to build was a Headliner toggle. While I think this would be a
+            great QOL improvement, the key mechanic for next set may not be the
+            Chosen or Headliner mechanic that was preset in Set 4: Fates and Set
+            10: Remix Rumble, respectively.
+          </p>
+          <h2 className="mb-4 article-title-1">
+            I then sketched out what the layout of the design would look like.
+          </h2>
+          <h2 className="mb-4 article-title-1">
+            I carefully studied the Hextech brand before creating high-fidelity
+            prototypes.
+          </h2>
+        </div>
+      </section> */}
+
+      <section
+        id="design-process"
+        className="px-6 max-w-[96rem] scroll-m-16 flex items-center flex-col gap-2"
+      >
+        <div className="max-w-3xl w-full">
+          <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
+            10 | Reflection
+          </span>
+          <div className="max-w-3xl grid gap-4">
+            <div className="border p-4 lg:p-6 rounded-lg flex flex-col sm:flex-row gap-4">
+              <div className="aspect-square w-20 md:w-24">
+                <img src="/projects/tft-team-planner/towa.webp"></img>
+              </div>
+              <div className="w-full">
+                <h3 className="article-title-2 mb-2">What I learned</h3>
+                <p className="text-neutral-400 xl:text-lg">
+                  Players will be expecting continuity between desktop and
+                  mobile layouts. I also learned that while it&apos;s important
+                  to listen to feedback, it&apos;s equally important to identify
+                  what feedback should be listened to.
+                </p>
+              </div>
+            </div>
+
+            <div className="border p-4 lg:p-6 rounded-lg flex flex-col sm:flex-row gap-4">
+              <div className="aspect-square w-20 md:w-24">
+                <img src="/projects/tft-team-planner/gonna-be-a-blast.webp"></img>
+              </div>
+              <div className="w-full">
+                <h3 className="article-title-2 mb-2">What I did well</h3>
+                <p className="text-neutral-400 xl:text-lg">
+                  I was at first too intimidated to share my work online, so I’m
+                  proud of the fact that I was able to gather the courage to
+                  share it on Reddit. The original concept received almost
+                  80,000 views in the first 48 hours of posting. It currently
+                  has a 97% upvote rate, and it’s been shared 65 times! The
+                  visual design and the UI was highly praised by the players.
+                </p>
+              </div>
+            </div>
+
+            <div className="border p-4 lg:p-6 rounded-lg flex flex-col sm:flex-row gap-4">
+              <div className="aspect-square w-20 md:w-24">
+                <img src="/projects/tft-team-planner/come-at-me.webp"></img>
+              </div>
+              <div className="w-full">
+                <h3 className="article-title-2 mb-2">
+                  What I could have improved on
+                </h3>
+                <p className="text-neutral-400 xl:text-lg">
+                  Iconography is not my strong suit, and unfortunately, I
+                  wasn&apos;t able to find high-quality icons of some UI
+                  elements. I recreated some using Adobe Illustrator, but my
+                  vector skills and iconography still need improvement.
+                </p>
+              </div>
+            </div>
+
+            <div className="border p-4 lg:p-6 rounded-lg flex flex-col sm:flex-row gap-4">
+              <div className="aspect-square w-20 md:w-24">
+                <img src="/projects/tft-team-planner/so-sweet.webp"></img>
+              </div>
+              <div className="w-full">
+                <h3 className="article-title-2 mb-2">
+                  What I&apos;d do differently
+                </h3>
+                <p className="text-neutral-400 xl:text-lg">
+                  I should have considered the mobile implementation. I also
+                  should have designed an empty state for the Team Planner
+                  that&apos;s more closely aligned with what the UI looks like
+                  if there&apos;s content there. These are both things I&apos;d
+                  like to tackle in the future.
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -56,9 +56,10 @@ export default function Home() {
             </div>
 
             <p className="text-neutral-400 xl:text-lg">
-              Conceptualized and designed features for the in-game Team Planner
-              of Teamfight Tactics to help beginner players improve their game
-              knowledge.
+              As a solo designer, I conceptualized and designed features for the
+              in-game Team Planner of Teamfight Tactics and shared
+              proof-of-concept prototypes with the community, receiving an
+              overwhelmingly positive response from the playerbase.
             </p>
           </div>
         </a>
