@@ -105,7 +105,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="max-w-[76rem] w-full grid lg:grid-cols-2 gap-16">
+        <section className="max-w-[88rem] w-full grid lg:grid-cols-2 gap-16">
           <div>
             <span className="label-sm block mb-6 px-4 py-2 rounded-full border w-fit">
               Experience
@@ -243,7 +243,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-neutral-900/60 w-full max-w-[80rem] flex md:justify-center p-6 lg:p-12 rounded-lg">
+        <section className="bg-neutral-900/60 w-full max-w-[88rem] flex md:justify-center p-6 lg:p-12 rounded-lg">
           <div className="max-w-xl md:text-center flex flex-col md:items-center">
             <p className="font-serif text-5xl text-secondary">❝</p>
             <p className="text-lg xl:text-xl text-neutral-300 mb-6">
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mb-4 max-w-[80rem] w-full flex flex-col md:items-center md:justify-center">
+        <section className="mb-4 max-w-[88rem] w-full flex flex-col md:items-center md:justify-center">
           <div className="mb-8 flex flex-col md:items-center">
             <span className="label-sm block mb-4 px-4 py-2 rounded-full border w-fit">
               More Testimonials
