@@ -537,12 +537,13 @@ export default function TeamPlanner() {
               <div className="w-full">
                 <h3 className="article-title-2 mb-2">What I did well</h3>
                 <p className="text-neutral-400 xl:text-lg">
-                  I was at first too intimidated to share my work online, so I’m
-                  proud of the fact that I was able to gather the courage to
-                  share it on Reddit. The original concept received almost
-                  80,000 views in the first 48 hours of posting. It currently
-                  has a 97% upvote rate, and it’s been shared 65 times! The
-                  visual design and the UI was highly praised by the players.
+                  I was at first too intimidated to share my work online, so
+                  I&apos;m proud of the fact that I was able to gather the
+                  courage to share it on Reddit. The original concept received
+                  almost 80,000 views in the first 48 hours of posting. It
+                  currently has a 97% upvote rate, and it&apos;s been shared 65
+                  times! The visual design and the UI was highly praised by the
+                  players.
                 </p>
               </div>
             </div>

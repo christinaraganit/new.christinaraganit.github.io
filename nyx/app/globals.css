@@ -84,6 +84,10 @@
     @apply text-4xl font-semibold tracking-tight lg:text-5xl pb-2;
   }
 
+  .large-title {
+    @apply text-3xl font-semibold tracking-tight pb-2;
+  }
+
   .title-1 {
     @apply text-2xl font-medium text-neutral-200 tracking-tight;
   }
@@ -102,5 +106,9 @@
 
   .icon-link {
     @apply text-neutral-200 hover:text-neutral-400 transition-colors;
+  }
+
+  .gradient-to-b-text {
+    @apply bg-gradient-to-b from-neutral-400 to-neutral-950/[18%] opacity-100 block text-transparent bg-clip-text;
   }
 }
