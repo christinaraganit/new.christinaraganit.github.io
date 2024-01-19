@@ -16,14 +16,12 @@ export default function Experience(props: Props) {
       </div>
 
       <div>
-        <span className="text-sm text-neutral-400 mb-1.5 block">
-          {props.date}
-        </span>
-        <span className="block xl:text-lg text-neutral-200 font-medium mb-2">
+        <span className="block muted mb-2">{props.date}</span>
+        <p className="large mb-1.5">
           {props.role} at {props.company}
-        </span>
+        </p>
 
-        <p className="text-neutral-400 max-w-lg">{props.children}</p>
+        <p className="body-1">{props.children}</p>
       </div>
     </div>
   );

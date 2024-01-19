@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <div>
-      <nav className="flex items-center justify-center border-b fixed w-full bg-neutral-950/60 backdrop-blur-md z-10 py-2">
-        <div className="pl-1 pr-2 lg:px-0 max-w-[88rem] flex justify-between w-full items-center">
-          <a className="px-4 block" href="/">
+      <nav className="px-6 flex items-center justify-center border-b fixed w-full bg-neutral-950/60 backdrop-blur-md z-10 py-2">
+        <div className="max-w-[88rem] flex justify-between w-full items-center">
+          <a className="block" href="/">
             <svg
               width="24"
               height="24"
@@ -23,14 +23,14 @@ export default function Nav() {
           </a>
 
           <div>
-            <div className="flex flex-wrap items-center justify-center">
-              <Button asChild variant="link">
+            <div className="flex flex-wrap items-center justify-center gap-8">
+              <Button asChild variant="link" className="px-0">
                 <Link href="/">Home</Link>
               </Button>
               {/* <Button asChild variant="link">
                 <Link href="/about">About</Link>
               </Button> */}
-              <Button asChild variant="link">
+              <Button asChild variant="link" className="px-0">
                 <Link href="https://drive.google.com/file/d/1f5lIKN6n2vMnfDtx9ACCAwFTCYjXsajK/view?usp=sharing">
                   Resume
                 </Link>
